@@ -1,0 +1,30 @@
+.container {
+ border: 1px solid red ;
+ height: 80vh;
+ display: flex;
+ gap: 100px;
+ justify-content: center;
+ align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+
+}
+
+.pas-1 {
+    transform: skewX(20deg);
+}
+
+.pas-2 {
+    transform: skewX(40deg);
+}
+
+.pas-3 {
+    transform: skew(20deg, 30deg);
+}
+.pas-4{
+    transform: skew(20deg , 40deg);
+}

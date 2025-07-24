@@ -1,0 +1,35 @@
+*{
+    margin: 0% ;
+    padding: 0% ;
+    border-sizing: border-box;
+   
+}
+
+.container {
+    border: 1px solid red;
+    height: 90vh;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background-color: blue;
+    color: red;
+    height: 150px;
+    width: 150px;
+}
+
+
+.box-2 {
+    transform: rotate(60deg);
+}
+.box-3 {
+    transform: rotate(90deg);
+}
+.box-4 {
+    transform: rotate(180deg);
+}
+.box-5 {
+    transform: rotate(360deg);
+}
