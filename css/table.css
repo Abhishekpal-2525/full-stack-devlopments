@@ -1,0 +1,17 @@
+table{
+    border: 2px outset red;
+    text-align: center;
+    margin-left:10%;
+    clip-path: circle(50% at 50% 50%);
+    
+    
+}
+th,td{
+    border: 1px outset pink;
+    padding: 5px;
+    text-align: center;
+}
+thead{
+    color:aqua;
+
+}
