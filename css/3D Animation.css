@@ -2,6 +2,22 @@
     perspective: 600px;
     margin: 50px;
 }
-.box{
-    
+.box3d{
+    width:100px;
+    height:100px;
+    margin: 20px;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    line-height: 100px;
+    transition: transform 0.5s easy ;
+}
+.roratex:hover{
+    transform: rotatex(30deg);
+}
+.roratey:hover{
+    transform: rotatey(50deg);
+}
+.roratez:hover{
+    transform: rotatez(80deg);
 }

@@ -21,7 +21,7 @@
 } 
 
 
- .box-2 {
+.box-2 {
     transform: rotate(60deg);
 }
 .box-3 {
@@ -33,3 +33,4 @@
 .box-5 {
     transform: rotate(360deg);
 } 
+
