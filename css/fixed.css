@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.parent{
+    position: fixed;
+    height: 300px;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: red;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    border: 3px solid green;
+    height: 300vh;
+}

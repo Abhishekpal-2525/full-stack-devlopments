@@ -1,0 +1,22 @@
+.parent{
+    background-color: red;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+}
+.contant{
+background-color: gray;
+    height: 1000px;
+}
+
+.child{
+    position: sticky;
+    top: 300px;
+    background-color: yellow;
+   
+
+}
+.child>img{
+    height: 200px;
+}

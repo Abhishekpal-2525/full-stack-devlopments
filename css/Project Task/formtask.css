@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+fieldset{
+border: 2px solid red;
+border-radius: 10px;
+color: red;
+width: 10%;
+padding: 10px;
+margin: 10px;  
+} 
+
+.parent{
+    border: none;
+
+}
+select{
+    width: 100%;
+
+
+}
