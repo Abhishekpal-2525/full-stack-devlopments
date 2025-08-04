@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: grey;
+
+}
+nav{
+    background-color: white;
+    height: 50px;
+    justify-items: center;
+    text-align: center;
+    text-decoration-line: none;
+    text-decoration: none;
+    line-height: 50px;
+    
+}
+
+nav>ol{
+display: flex;
+margin: 20px;
+/* text-decoration-line: none; */
+
+    
+}
+
+nav>li{
+ /* text-decoration-line: none; */
+ text-decoration: none;
+} 
