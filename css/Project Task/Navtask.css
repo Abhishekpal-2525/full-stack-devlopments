@@ -2,3 +2,40 @@
     margin: 0%;
     padding: 0%;
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+}
+
+
+.left{
+  display: flex;
+  gap: 20px;
+
+}
+.left > #search{
+  width: 30px;
+}
+
+.middle{
+  display: flex;
+  gap: 80px;
+}
+
+.middle > img{
+  width: 40px;
+}
+
+.last{
+  display: flex;
+  gap: 20px;
+}
+.last > img{
+  background-color: rgb(226, 221, 221);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
