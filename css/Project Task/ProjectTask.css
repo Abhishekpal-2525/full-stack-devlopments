@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+body{
+
+    max-height: 1120px;
+}
+.container{
+    background-color: rgb(198, 192, 192);
+    
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* background-color: rgb(198, 192, 192); */
+   
+}
+
+.upper{
+    display: flex;
+    gap: 30px;
+}
+.upper > #aa{
+    background-color: rgb(240, 235, 235);
+    border-radius: 50%;
+    padding: 2px;
+    align-items: center;
+}
+.upper a{
+    color: black;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    color: black;
+}
+.middle{
+   align-items: center;
+   font-size: 25px;
+   display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+   
+}
+.middle img{
+    clip-path: circle(50% at 50% 50%);
+    width: 100px;
+}
+.middle h1{
+    width: 30%;
+    text-align: center;
+    margin-right: 70px;
+    padding-left:70px;
+    
+}
+button{
+    margin: 30px;
+    padding: 5px 50px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.logo{
+    display: flex;
+    /* gap: 80px; */
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* border: 1px solid red; */
+  
+    
+}
+.logo img{
+    width: 100px; 
+    padding: 35px;
+    gap: 10px;
+   
+}
+
+section > .last{
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 100%;
+    padding-top: 120px;
+}
+section{
+    background-color: rgb(198, 192, 192);;
+}
+.last h1{
+    text-align: center;
+    width: 40%;
+}
+hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 300px;
+     display: flex; 
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+footer img{
+    width: 100px;
+}
+
+
+.fast > h2,h3{
+    padding: 5px;
+
+}
+.fast-1 > h2,h3{
+    padding: 5px;
+}
+.fast-2 > h2,h3{
+    padding: 5px;
+}
+.fast-2 img{
+     padding: 35px;
+    
+}
+.fast-3 > h2,h3{
+    padding: 5px;
+}
+.fast-3 img{
+    padding: 35px;
+}
+
+
+

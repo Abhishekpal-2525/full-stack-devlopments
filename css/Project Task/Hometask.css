@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)) , url(../../utils/nature.jpeg);
+    background-size:100%;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
+.left{
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+}
+.right{
+    display: flex;
+    padding-right: 50px;
+    align-items: center;
+    gap: 20px;
+}
+.left a{
+    color : white;
+}
+.left :hover{
+    color: blue;
+}
+.right :hover{
+    color: blue;
+}
+.right a{
+    color: white;
+}
+
+.middle-1{
+    justify-items: center;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+}
+
+.sop-1{
+    font-size: small;
+    padding: 15px;
+}
+.sop-2{
+    font-size: 30px;
+    padding: 10px;
+}
+.sop-3{
+    font-size: small;
+    padding: 10px;
+}
+.sop-4{
+    padding: 10px;
+}
+.sop-4 > button{
+    padding: 15px ;
+}
+
+.sop-4 :hover{
+    background-color: transparent;
+    color: white;
+
+}
+
