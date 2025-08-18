@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 25px;
+  height: 100px;
+}
+.right > a{ 
+    display: flex;
+    font-size: large;
+    color: black;
+}
+
+.middle {
+    display: flex;
+    gap: 20px;
+}
+.middle > a {
+    color: black;
+}
+
+.left{
+    display: flex;
+    gap: 20px;
+}
+.left > a{
+ color: black;
+}
+
