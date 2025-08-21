@@ -11,6 +11,7 @@
     font-weight: bold;
     line-height: 100px;
     transition: transform 0.5s easy ;
+    
 }
 .roratex:hover{
     transform: rotatex(30deg);
