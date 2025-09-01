@@ -35,3 +35,174 @@
  color: black;
 }
 
+.middle-menu{
+
+    height: 600px;
+    width: 100%;
+    padding:150px;
+    padding-left: 150px;
+}
+
+.role {
+    font-size: 30px;
+}
+.role > p {
+width: 500px;
+padding-top: 30px;
+font-size: small;
+}
+.role > button{
+  padding: 15px 60px;
+  border-radius: 10px;
+  margin-top:50px ;
+  background-color: rgb(53, 53, 221);
+  color: white;
+}
+
+.role-2{
+    display: flex;
+    display: space-between;
+
+
+}
+
+.middle-menu{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.role-2 > img{
+    height: 500px;
+    object-fit: cover;
+    
+}
+.frame{
+    height: 150px;
+    width: 300px;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    margin-left: 500px;
+    margin-top: 280px;
+    background-color: rgb(8, 8, 116);
+    border-radius: 25px;
+}
+
+.frame>p{
+    color: white;
+    padding:20px 10px;
+    align-items: center;
+      
+}
+.icons{
+    height: 130px;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background-color: rgb(233, 230, 230);
+}
+.icons>img{
+    height: 30px;
+}
+
+.cont-1{
+    height: 250px;
+    width: 100%;
+    padding:40px;  
+}
+.cont-1>h2{
+    font-size: 60px;
+}
+.menu-cont{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.cont-icon{
+    height: 250px;
+    width: 20%;
+}
+.cont-icon-1{
+    height:250px ;
+    width: 20%;
+}
+
+.cont-icon-2{
+    height:250px ;
+    width: 20%;
+  
+}
+.cont-icon-3{
+    height:250px ;
+    width: 20%;
+}
+/* p{
+    padding-top:30px ;
+} */
+.cont-icon-1 >  p ,h3{
+    padding-top: 33px;
+}
+.cont-icon-3 > p, h3{
+    padding-top: 32px ;
+}
+.cont-icon > p,h3{
+    padding-top: 33px;
+}
+.cont-icon-2> p , h3{
+    padding-top: 25px;
+}
+
+.main{
+    width: 47%;
+    margin: 30px;    
+}
+
+.main>h1{
+    font-size: 50px;
+}
+.main> button{
+    padding: 15px 60px;
+    border-radius: 10px;
+}
+.bnt{
+    background-color: rgb(53, 53, 221);
+}
+
+.main-menu{
+    display: flex;
+    background-color: rgb(233, 230, 230);
+    height: 400px;
+}
+.main>p,button{
+    margin-top: 25px;
+}
+
+.office{
+    height:250px;
+    width: 50%;
+    margin-left: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.office-1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 7%;
+    height:180px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.office-2{
+    margin-bottom: -120px;
+    margin-left: 50px;
+    height: 100px;
+    width: 15%;
+    border-radius: 10px;
+}
