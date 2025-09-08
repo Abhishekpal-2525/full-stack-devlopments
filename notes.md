@@ -229,4 +229,75 @@ while (conditidn) {
 3. Then, the condition is evaluated again.
 4. This process continues as long as the condition evaluates to true.
 5. If the condition evaluates to false, the loop stops.
- 
+
+# Array
+1. first type of array declare multiple data store in array
+1. second type of array declare 
+1. thirdy type of array declare
+```js
+var cityname=["Pune", "Mumbai", "Delhi"];
+document. write(cityname);
+
+
+var cityname=new Array(); 
+cityname [0]= "Pune" ;
+cityname [1]= "Mumbai"; 
+cityname [2]= "Delhi" ;
+document write(cityname[0]);
+
+
+var cityname=new Array("Pune", "Mumbai", "Delhi");
+document.write(0)
+ ```
+ 1. at = inbulid function hota h , 2 position pa konsa element h 
+ ```js
+ var cityname=["'Pune", "Mumbai", "Delhi", "Kolkata"];
+let c=cityname. at (2) ; 
+document.write(c);
+```
+1. indexOf = inbulid function hota h , ya delhi kitna index(number) pa.
+1. lastindexOf = agar middle mai 1 aaya and last mai 1 h tho ya last value select karaga.
+ ```js
+ var cityname=["Pune", "Mumbai", "Delhi", "Kolkata"];
+
+ let c=cityname. indexOf("Delhi");
+
+ document write("Delhi is present at Position:"+c);
+
+
+
+ var cityname=["Pune", "Mumbai", "Delhi", "Kolkata"
+，"Delhi"］；
+let c=cityname.lastIndexOf("Delhi");
+document write("Delhi is present at Position:"+c)
+```
+1. pop() = means koi element ko last sa delete kar tha h
+1. push() = means koi element ko add kar tha h 
+1. shift() = means koi bhi first element ko delete kar tha h 
+1. unshift() = means koi bhi first element mai add kar tha tha h
+1. sort() = means alphpate ka form mai present kar tha tha h `a,b,c,d,` that `sort string ka liye proper ans karaga but number ka liye nai`
+1. reverse() = means i form 1 to 10 then 10 to 1 `string and number both use`
+1. filter() = 
+1. ForEach() = means one by one form kar tha h 
+```js
+3.
+var cityname=["Pune", "Mumbai", "Delhi", "Kolkata"];
+document write (cityname+"<br›");
+cityname. shift();
+ document write (cityname+"<br›");
+
+4.
+var cityname=["Pune", "Mumbai", "Delhi", "Kolkata"];
+document write (cityname+"<br›");
+cityname. unshift(nagpur);
+ document write (citynam e+"<br›");
+
+5.
+ var cityname=["Pune", "Mumbai", "Delhi", "Kolkata"];
+ let c=cityname.sort();
+document. write(c);
+
+7.
+var age=[10, 20,48,55,7];
+let c=age. filter(function(value){return value>18;});
+document. write(c);

@@ -1,14 +1,8 @@
-let a=4
-let b=5
-const A = 2;
-switch(A){
-    case 1:
-        console.log(a+b)
-        break;
-    case 2:
-        console.log(a-b)
-        break;
-    case 3:
-        console.log(a*b)
-        break;
-} 
+var x= [1,2,3,4,5,6,7,8];
+var  sum=0;
+for(let i=0; i<x.length; i++){
+    console.log(x[i]); 
+    sum=sum+x[i];
+};
+console.log('sum is'+sum);
+

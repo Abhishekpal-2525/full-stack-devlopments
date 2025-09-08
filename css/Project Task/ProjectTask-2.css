@@ -168,14 +168,16 @@ font-size: small;
 .main> button{
     padding: 15px 60px;
     border-radius: 10px;
+   
 }
 .bnt{
     background-color: rgb(53, 53, 221);
+    color: white;
 }
 
 .main-menu{
     display: flex;
-    background-color: rgb(233, 230, 230);
+    background-color: rgb(213, 210, 210);
     height: 400px;
 }
 .main>p,button{
