@@ -1,8 +1,11 @@
-var x= [1,2,3,4,5,6,7,8];
-var  sum=0;
-for(let i=0; i<x.length; i++){
-    console.log(x[i]); 
-    sum=sum+x[i];
-};
-console.log('sum is'+sum);
+let arr=[,2,3,4,5]
 
+arr.push(6,7,8);
+arr  
+Array.prototype.pushpa=function(value){
+    let index=this.length;
+    this[index]=value;
+}
+
+arr.pushpa(9,10,11);
+arr 

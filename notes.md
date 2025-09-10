@@ -301,3 +301,40 @@ document. write(c);
 var age=[10, 20,48,55,7];
 let c=age. filter(function(value){return value>18;});
 document. write(c);
+
+const myNums = [1, 2, 3, 4,5,6,7,8,9,10]
+const newNums = myNums.filter((num)=> num>4)
+console.log (newNums) ;
+```
+`agar {} mai use kar na h tho { return num>4} kar na padhaga`
+
+# object
+
+1. Hamlog object mai se value change kar sakte h.
+1. Aur koi another person code ko change na kar paye tho use it. `object.freeze(varaible ka name)`
+```js
+let Usermy={
+    name:"abhishek",
+    age:16,
+    email:"abhi123@gmal.com"
+};
+console.log(Usermy.name)
+console.log(Usermy.age)
+
+Usermy.name = "pal";
+Usermy.age = 18;
+
+object.freeze(Usermy)
+
+console.log(Usermy)
+```
+# arrow function (=>)
+ 1. Three type of arrow function declare
+```js
+const addTwo = (numi, num2) => num1 + num2
+
+const addTwo = (num1, num2) => ( num1 + num2 )
+
+const addTwo = (numi, num2) => ({username:
+"hitesh"})
+```
