@@ -279,6 +279,8 @@ document write("Delhi is present at Position:"+c)
 1. reverse() = means i form 1 to 10 then 10 to 1 `string and number both use`
 1. filter() = 
 1. ForEach() = means one by one form kar tha h 
+      `for each return nai kar tha h value ko`.
+1. reduce= ismai hamlog jaisa code h vasie bhi kar sakte h and `acc value = ((acc,cur)=>{},0)` ya acc value h.
 ```js
 3.
 var cityname=["Pune", "Mumbai", "Delhi", "Kolkata"];
@@ -305,6 +307,16 @@ document. write(c);
 const myNums = [1, 2, 3, 4,5,6,7,8,9,10]
 const newNums = myNums.filter((num)=> num>4)
 console.log (newNums) ;
+
+
+9.
+const arr=[1,2,3,4,5,]
+const intervalvalue=0;
+
+const newarr=arr.reduce((accumulator,currentvalue)=> accumulator + currentvalue , intervalvalue )
+
+console.log(newarr);
+
 ```
 `agar {} mai use kar na h tho { return num>4} kar na padhaga`
 
