@@ -350,3 +350,15 @@ const addTwo = (num1, num2) => ( num1 + num2 )
 const addTwo = (numi, num2) => ({username:
 "hitesh"})
 ```
+# HOF
+```
+Higher Order Functions Are The Functions Which Accept A Function In A Parameter Or Return A Function Or Both.
+```
+WHAT ARE CONSTRUCTOR FUNCTIONS ?
+
+A Function Which Whenever Invoked With "New" Keyword Returns
+An Object, If We Use "This" Keyword Inside That Function, It Returns An Object With All Of The Properties And Methods Mentioned Inside That Function, Such Function Is Called
+Constructor Function.
+
+
+
