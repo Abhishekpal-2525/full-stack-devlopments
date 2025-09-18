@@ -208,3 +208,25 @@ font-size: small;
     width: 15%;
     border-radius: 10px;
 }
+
+.ent{
+   height: 600px;
+   width: 100%;
+   padding:50px;
+}
+.ent>p{
+    width:70%;
+    padding-top: 20px;
+}
+.ent>h2{
+    font-size: 50px;
+}
+
+.pic-ent>img{
+    border-radius: 5%; 
+} 
+
+.pic-ent{
+    display: flex;
+    justify-content: space-around;
+}

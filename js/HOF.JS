@@ -44,3 +44,4 @@ let funcStr= str.split('');
     return acc;
  },{});
  console.log(countSt)
+ 
