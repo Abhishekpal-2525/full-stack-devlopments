@@ -7,11 +7,12 @@
 // console.log(newarr);
 
 
-function formal(roll){
-     return new Promise((resolve,reject)=>{
-          setTimeout(()=>{
-            console.log('roll:'+roll);
-            resolve("sucess")
-          },3000);
-     });
-}
+// function formal(roll){
+//      return new Promise((resolve,reject)=>{
+//           setTimeout(()=>{
+//             console.log('roll:'+roll);
+//             resolve("sucess")
+//           },3000);
+//      });
+// }
+
