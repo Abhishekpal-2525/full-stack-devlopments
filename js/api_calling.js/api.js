@@ -10,8 +10,8 @@
 
 const APICALLING = async()=>{
       try {
-        let dete = await fetch(BASE_URL);
-        let res = await dete.json();
+        let date = await fetch(BASE_URL);
+        let res = await date.json();
         console.log('res:',res); 
         alert(
             `id ${res.id}

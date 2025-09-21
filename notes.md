@@ -169,6 +169,7 @@ Great for headers that stay at the top when scrolling.
 ```
 
 # Javascript (JS)
+`Define`:- javascript is a programming language used to make website interactive. it can update content,respond to user action and control multimedia without reloading the page.
 
 JavaScript is the programming language of the web.
 
@@ -204,6 +205,55 @@ console.log(); = isma many varable run that
 
 eq= name , email.com , password
 ```
+# loops and switch
+`Define`:- Loops are used to run the same block of code multiple times until a certain condition is met.
+
+`Define`:- Switch is used to perform different actions based on different conditions — like a cleaner alternative to many if...else if...else statements.
+
+  Three Types of Loops
+1. for loop  Runs a block of code a specific number of times.
+```js
+for (let i = 0; i < 5; i++) {
+  console.log("Hello!");
+}
+// Output: Hello! (5 times)
+
+```
+ 2. while loop – Runs a block of code while a condition is true.
+ ```js
+ let i = 0;
+while (i < 5) {
+  console.log("Hi");
+  i++;
+}
+```
+3. do...while loop – Similar to while, but it runs the code at least once before checking the condition.
+```js
+let i = 0;
+do {
+  console.log("Hey");
+  i++;
+} while (i < 5);
+```
+4. swich example:-
+```js
+let day = 3;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  default:
+    console.log("Another day");
+}
+```
+
 # How to take user input using prompt function
 1. prompt isliya use hua h ki user sa input le sakte h
    promt srif browser pa run hota h.
@@ -321,6 +371,7 @@ console.log(newarr);
 `agar {} mai use kar na h tho { return num>4} kar na padhaga`
 
 # object
+`Define`:-An object is a collection of data and action. `data which is called property and action which is called method.`
 
 1. Hamlog object mai se value change kar sakte h.
 1. Aur koi another person code ko change na kar paye tho use it. `object.freeze(varaible ka name)`
@@ -351,14 +402,39 @@ const addTwo = (numi, num2) => ({username:
 "hitesh"})
 ```
 # HOF
+
+`Define`:- Higher Order Functions Are The Functions Which Accept A Function In A Parameter Or Return A Function Or Both.
+
+ 1. map() — Change Each Item in an Array
+1. It transforms every item in the array and returns a new array.
+```js
+let numbers = [1, 2, 3];
+
+let doubled = numbers.map(function(num) {
+  return num * 2;
+});
+
+console.log(doubled); // [2, 4, 6]
 ```
-Higher Order Functions Are The Functions Which Accept A Function In A Parameter Or Return A Function Or Both.
+1. filter() — Pick Some Items
+1. It selects items that match a condition and returns a new array.
+```js
+let numbers = [1, 2, 3, 4, 5];
+
+let even = numbers.filter(function(num) {
+  return num % 2 === 0;
+});
+
+console.log(even); // [2, 4]
 ```
-WHAT ARE CONSTRUCTOR FUNCTIONS ?
+1. reduce() — Combine All Items into One
+1. It takes all items and reduces them to one value.
+```js
+let numbers = [1, 2, 3, 4];
 
-A Function Which Whenever Invoked With "New" Keyword Returns
-An Object, If We Use "This" Keyword Inside That Function, It Returns An Object With All Of The Properties And Methods Mentioned Inside That Function, Such Function Is Called
-Constructor Function.
+let total = numbers.reduce(function(sum, num) {
+  return sum + num;
+}, 0);
 
-
-
+console.log(total); // 10
+```
