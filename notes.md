@@ -421,6 +421,7 @@ console.log(doubled); // [2, 4, 6]
 ```js
 let numbers = [1, 2, 3, 4, 5];
 
+
 let even = numbers.filter(function(num) {
   return num % 2 === 0;
 });
@@ -438,3 +439,13 @@ let total = numbers.reduce(function(sum, num) {
 
 console.log(total); // 10
 ```
+# Dom (Document Object Model)
+
+1. document.getElementById()
+1. .getElementByClassName()
+1. .innerHTML
+1. .textContent
+1. .innerText
+1. .querySelector()
+1. .querySelector(#id) and Same `.class` bhi kar sakta hu.
+1. .querySelector('input[type="password"]')
