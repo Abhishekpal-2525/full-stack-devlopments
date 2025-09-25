@@ -446,6 +446,47 @@ console.log(total); // 10
 1. .innerHTML
 1. .textContent
 1. .innerText
-1. .querySelector()
+1. .querySelector() (h1, ul,li,) 
 1. .querySelector(#id) and Same `.class` bhi kar sakta hu.
 1. .querySelector('input[type="password"]')
+1. any name[0].style.color='green'
+
+`note:- NodeList aaya tho ya kar na ka [0] `
+
+note:- Node nai h tho kasia kar na h
+```
+Array.from(any name)
+const name=Array.from(any name)
+any name.forEach()
+```
+# How to create a new element in Dom
+```
+1. 
+
+const div = document.createElement('div')
+console.log(div);
+div.className = "main"
+div.id = Math.round (Math.random () * 10 + 1)
+div.setAttribute("title"
+", "generated title")
+div.style.backgroundColor = "green"
+div.style.padding = "12px"
+// div. innerText = "Chai aur code"
+
+2. format div add kar na 
+
+const addText = document.createTextNode ("Chai aur code")
+div.appendChild (addText)
+document, body.appendChild(div)
+```
+# Local Storage
+Local Store is a urb storge object which are not not sent to server with each request.
+This data server a full page refresh and even a full browers restart.
+
+These are the methods provided by local Storage
+1. Set Item (Rey, value) → Store Rey /value pair
+2. get Item (key) → get the value by key
+3. remove Item (key) → remove the Rey with its value
+4. Clear () → delete everything
+5. Key (index) - get the key on a given position
+6. length - the number of stored items
