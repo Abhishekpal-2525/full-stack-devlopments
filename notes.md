@@ -391,7 +391,10 @@ object.freeze(Usermy)
 
 console.log(Usermy)
 ```
-# arrow function (=>)
+# return function , arrow function (=>)
+`Define`:-In JavaScript, the return statement is used inside a function to send a value back to where the function was called. It ends the function and gives back a result.
+
+`Define`:- it is shorter way to function define.
  1. Three type of arrow function declare
 ```js
 const addTwo = (numi, num2) => num1 + num2
@@ -440,6 +443,7 @@ let total = numbers.reduce(function(sum, num) {
 console.log(total); // 10
 ```
 # Dom (Document Object Model)
+`define`:-The DOM (Document Object Model) in JavaScript is a way to represent the structure of a web page. It turns the HTML into a tree of objects that JavaScript can interact with. You can use the DOM to change text, styles, and structure of the webpage dynamically.
 
 1. document.getElementById()
 1. .getElementByClassName()
@@ -490,3 +494,23 @@ These are the methods provided by local Storage
 4. Clear () → delete everything
 5. Key (index) - get the key on a given position
 6. length - the number of stored items
+
+# prototype in js
+`Define`:-In JavaScript, a prototype is a built-in object that allows other objects to inherit properties and methods from it.
+Every JavaScript object has a hidden link to another object called its prototype.
+
+# try and catch
+`Define`:-In JavaScript, try...catch is used to handle errors so your program doesn't crash.
+Simple Explanation:
+try: Write the code that might cause an error.
+catch: If an error happens, this part runs and handles it.
+```js
+try {
+  let result = 10 / 0;
+  console.log(result);
+  let name = undefined;
+  console.log(name.length); // This will cause an error
+} catch (error) {
+  console.log("Something went wrong:", error.message);
+}
+```
