@@ -114,7 +114,7 @@ font-size: small;
     padding:40px;  
 }
 .cont-1>h2{
-    font-size: 60px;
+    font-size: 50px;
 }
 .menu-cont{
     height: 280px;
@@ -210,16 +210,16 @@ font-size: small;
 }
 
 .ent{
-   height: 600px;
+   height: 1100px;
    width: 100%;
    padding:50px;
 }
 .ent>p{
-    width:70%;
+    width:60%;
     padding-top: 20px;
 }
 .ent>h2{
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .pic-ent>img{
@@ -228,5 +228,275 @@ font-size: small;
 
 .pic-ent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top:40px ;
+    align-items: center;
+    justify-items: center;
 }
+
+.pic-1>img{
+    height: 300px;
+    width: 400px;
+}
+.pic-2>img{
+    height: 300px;
+    width: 400px;
+}
+.pic-3>img{
+    height: 300px;
+    width: 400px;
+}
+
+.pic-1>h3{
+    padding-left: 25%;
+}
+
+.pic-2>h3{
+    padding-left: 25%;
+}
+
+.pic-3>h3{
+    padding-left: 25%;
+}
+
+
+.pic-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dp-1>img{
+    height: 300px;
+    width: 400px;
+}
+.dp-2>img{
+    height: 300px;
+    width: 400px;
+}
+.dp-3>img{
+    height: 300px;
+    width: 400px;
+}.pic-main{
+    padding-top: 50px;
+}
+
+.dp-1>h3{
+    padding-left: 25%;
+}
+
+.dp-2>h3{
+    padding-left: 25%;
+}
+
+.dp-3>h3{
+    padding-left: 25%;
+}
+
+.ent>button{
+ margin-left: 43%;
+ padding: 13px 60px;
+ border-radius: 10px;
+ background-color: rgb(53, 53, 221);
+ color: white;
+}
+
+.same{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(233, 230, 230);
+
+}
+
+.same-1>img{
+    height: 450px;
+    width: 340px;
+   margin-left: 130px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.same{
+    display: flex;
+}
+
+.same-2{
+    padding: 80px;
+}
+.same-2>h1{
+    padding-top: 10px;
+}
+.same-2> #aa{
+    padding-top: 10px;
+}
+
+.same-2>button{
+    padding: 15px 60px;
+    border-radius: 10px;
+}
+.same-2>#ac{
+    background-color: rgb(53, 53, 221);
+    color: white;
+}
+
+.box{
+   height: 780px;
+   width: 100%;
+}
+
+.box-1>h1{
+    padding-top:90px ;
+    padding-left: 40px;
+    font-size: 40px;
+}
+.box-1>p{
+    padding-left: 40px;
+    padding-top: 14px;
+
+}
+.mini-box{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.mini-1 > p{
+    padding-top: 15px;
+}
+
+.mini-2 > p{
+    padding-top: 15px;
+}
+
+.mini-3 > p{
+    padding-top: 15px;
+}
+
+.mini-1 >h5{
+    padding-top: 15px;
+}
+
+.mini-2 >h5{
+    padding-top: 15px;
+}
+
+.mini-3 >h5{
+    padding-top: 15px;
+}
+
+.mini-1>button{
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+
+.mini-2>button{
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+
+.mini-3>button{
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+
+.mini{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.mini-11 > p{
+    padding-top: 15px;
+}
+.mini-22 > p{
+    padding-top: 15px;
+}
+.mini-33 > p{
+    padding-top: 15px;
+}
+
+.mini-11 >h5{
+    padding-top: 15px;
+}
+
+.mini-22 >h5{
+    padding-top: 15px;
+}
+
+.mini-33 >h5{
+    padding-top: 15px;
+}
+
+.mini-11>button{
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+
+.mini-22>button{
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+
+.mini-33>button{
+    padding: 3px 8px;
+    border-radius: 8px;
+}
+.box>button{
+margin-left: 45%;
+ padding: 13px 60px;
+ border-radius: 10px;
+ background-color: rgb(53, 53, 221);
+ color: white;
+margin-top: 70px;
+}
+
+.page{
+    height: 400px;
+    width: 100%;
+    padding-left: 40px;
+    background-color: rgb(233, 230, 230);
+    
+}
+.page>h1{
+    padding-top: 35px;
+    font-size: 40px;
+}
+.page>p{
+    padding-top: 10px;
+}
+.page-11{
+    display: flex;
+    gap: 70px;
+}
+
+.page-1{
+    height: 150px;
+    width: 360px;
+    background-color: rgb(8, 8, 116);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    padding-top: 50px; 
+    margin-top:50px ;
+}
+.page-2{
+    height: 150px;
+    width: 360px;
+    background-color: rgb(8, 8, 116);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    padding-top: 50px; 
+    margin-top:50px ;
+}
+.page-3{
+    height: 150px;
+    width: 360px;
+    background-color: rgb(8, 8, 116);
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    padding-top: 50px; 
+    margin-top:50px ;
+}
+
+
