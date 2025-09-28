@@ -12,7 +12,10 @@
   width: 100%;
   padding: 25px;
   height: 100px;
+  /* background-color: rgb(3, 3, 35);
+   */
 }
+
 .right > a{ 
     display: flex;
     font-size: large;
@@ -95,6 +98,11 @@ font-size: small;
     align-items: center;
       
 }
+.frame>h4{
+    color: orange;
+    padding-left: 125px;
+    padding-top: 10px;
+}
 .icons{
     height: 130px;
     width: 100%; 
@@ -102,7 +110,7 @@ font-size: small;
     align-items: center;
     justify-content: space-around;
     display: flex;
-    background-color: rgb(233, 230, 230);
+    background-color:  rgb(248, 242, 242);
 }
 .icons>img{
     height: 30px;
@@ -177,7 +185,7 @@ font-size: small;
 
 .main-menu{
     display: flex;
-    background-color: rgb(213, 210, 210);
+    background-color:  rgb(248, 242, 242);
     height: 400px;
 }
 .main>p,button{
@@ -303,7 +311,7 @@ font-size: small;
 .same{
     height: 400px;
     width: 100%;
-    background-color: rgb(233, 230, 230);
+    background-color:  rgb(248, 242, 242);
 
 }
 
@@ -339,7 +347,7 @@ font-size: small;
 }
 
 .box{
-   height: 780px;
+   height: 850px;
    width: 100%;
 }
 
@@ -357,8 +365,26 @@ font-size: small;
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+    
 }
-
+.mini-1{
+    height: 210px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mini-2{
+    height: 210px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mini-3{
+    height: 210px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
 .mini-1 > p{
     padding-top: 15px;
 }
@@ -402,6 +428,25 @@ font-size: small;
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+}
+.mini-11{
+    height: 210px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+.mini-22{
+    height: 210px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+}
+
+.mini-33{
+    height: 210px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
 }
 
 .mini-11 > p{
@@ -450,10 +495,10 @@ margin-top: 70px;
 }
 
 .page{
-    height: 400px;
+    height: 380px;
     width: 100%;
     padding-left: 40px;
-    background-color: rgb(233, 230, 230);
+    background-color:  rgb(248, 242, 242);
     
 }
 .page>h1{
@@ -478,6 +523,11 @@ margin-top: 70px;
     padding-top: 50px; 
     margin-top:50px ;
 }
+.page-1>h4{
+    padding-left: 194px;
+    padding-top: 20px;
+    color: orange;
+}
 .page-2{
     height: 150px;
     width: 360px;
@@ -487,6 +537,11 @@ margin-top: 70px;
     padding: 20px;
     padding-top: 50px; 
     margin-top:50px ;
+}
+.page-2>h4{
+    padding-left: 194px;
+    padding-top: 20px;
+    color: orange;
 }
 .page-3{
     height: 150px;
@@ -498,5 +553,128 @@ margin-top: 70px;
     padding-top: 50px; 
     margin-top:50px ;
 }
+.page-3>h4{
+    padding-left: 194px;
+    padding-top: 20px;
+    color: orange;
+}
 
+.product{
+    height: 600px;
+    width: 100%;
+    padding: 35px;
 
+}
+.product>h1{
+    font-size: 40px;
+}
+.product>p{
+    padding-top: 13px;
+}
+
+.pro-1{
+    width: 200px;
+    height:300px;
+    border: 1px solid red;
+    display: flex;
+    /* display: block; */
+}
+.pro-1>h2{
+    padding-top: 13px;
+}
+
+.pro-1>img{
+    height: 60px;
+}
+
+.last-one{
+  height:700px;
+  width: 100%;  
+  background-color: rgb(248, 242, 242);
+}
+
+.last-1{
+    padding: 30px;
+    width: 50%;
+}
+.last-1>p{
+    padding-top: 13px;
+}
+.last-11{
+    padding-top: 80px;
+}
+.last-11>hr{
+    margin-top: 40px;
+}
+.last-11>.gh{
+    padding-top:35px ;
+}
+
+.last-11>.gj{
+    padding-top:35px ;
+}
+.last-11>.rt{
+    margin-top: 90px;
+}
+.last-11>button{
+    padding: 13px 60px;
+    border-radius: 10px;
+    background-color: rgb(53, 53, 221);
+    color:white;
+    margin-top: 70px;
+}
+
+.last-one{
+    display: flex;
+}
+
+.last-pic>{
+    display: flex;
+    display: block;
+    width: 50%;
+    border: 1px solid red;
+}
+.last-pic>img{
+    display: flex;
+    padding:80px;
+    height: 300px;
+    width: 280px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.last-pic>.op{
+    display: flex;
+    height: 400px;
+    width: 280px;
+    margin-top: -100px;
+    object-fit: cover;
+}
+
+.last-pic>.pl{
+    position: absolute;
+    margin-top:-500px ;
+    margin-left: 140px;
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.footer-page{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-color: rgb(3, 3, 35);
+}
+.footer-1>a{
+    color: white;
+}
+
+.footer-2>a{
+    color: white;
+}
+
+.footer-3>a{
+    color: white;
+}
