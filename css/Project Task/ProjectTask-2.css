@@ -628,11 +628,12 @@ margin-top: 70px;
     display: flex;
 }
 
-.last-pic>{
+.last-pic{
     display: flex;
     display: block;
     width: 50%;
-    border: 1px solid red;
+    padding-left: 50px;
+    
 }
 .last-pic>img{
     display: flex;
