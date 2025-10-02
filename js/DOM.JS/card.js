@@ -18,10 +18,10 @@ const Render_uI = (value)=>{
 
    img.src =element.image;
    id.innerText= element.id;
-   title.innertext= element.title;
-   price.innertext= element.price;
-   description.innertext= element.description;
-   category.innertext= element.category; 
+   title.innerText= element.title;
+   price.innerText= element.price;
+   description.innerText= element.description;
+   category.innerText= element.category; 
    
    cardiv.className = "card-div";
    cardiv.append(img,id,title,price,description,category);
