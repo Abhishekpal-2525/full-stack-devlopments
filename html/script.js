@@ -2,12 +2,12 @@ const AI_BASE_URL= 'https://fakestoreapi.com/products'
 
 const product_fetch = ()=>{fetch(AI_BASE_URL)
     .then((res)=>res.json())
-    .then((res)=> ender_ui(res))
+    .then((res)=> Render_uI(res))
     .catch((err)=>console.log(err)
     )
 }
 
-const ender_ui =(value)=>{
+const Render_uI =(value)=>{
     let main = document.getElementById('main')
     value.map((element,index)=>{
         let catdiv = document.createElement('div');
@@ -25,3 +25,6 @@ const ender_ui =(value)=>{
 
     });
 }
+
+
+product_fetch();
