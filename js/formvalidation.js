@@ -1,13 +1,19 @@
-function myRadiofunc(e){
-    e.PreventDefault();
-    let radioData = document.myRadio.contant;
-    console.log(radioData);
-    for (let i=0; i<=radioData.length; i++){
-        if(radioData[i].checked === true){
-            document.getElementById('message').innerHTML=""
-            return true;
-        }
-    }
-    document.getElementById('message').innerHTML= "please Select anyone";
+  let fname = document.getElementById('fname');
+  let passw = document.getElementById('passw');
+ 
+ function formvalidate(){
+   
+      if(fname.value == ""){
+        document.getElementById('namepass').innerHTML ='user name is empty';
+      }  
+      else if(fname.value.length < 4){
+        document.getElementById('namepass').innerHTML='you must 4 character';
+      }
+
+      
+      if (passw.value == ""){
+        document.getElementById('password').innerHTML ='password name is empty';
+      }
+
     return false;
-}
+ }

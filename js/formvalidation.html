@@ -5,7 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
     
+    }
+
+    .form{
+        padding: 20px;
+        
+    }
+    .fo{
+        padding: 20px;
+    }
+    #namepass{
+        color: red;
+
+    }
+    #passw{
+        color: red;
+    }
+
+</style>
+<body>
+    <form action="#" onsubmit="return formvalidate()">
+       name: <input type="text" name="fname" id="fname"><br>
+       <p id="namepass"></p>
+    
+       password: <input type="password" name="password"  id="Passw"><br>
+       <p id="password"></p>
+         
+         <input type="submit" name="submit">
+    </form>
+
 </body>
+<script src="formvalidation.js"></script>
 </html>
