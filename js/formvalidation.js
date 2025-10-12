@@ -1,19 +1,25 @@
-  let fname = document.getElementById('fname');
-  let passw = document.getElementById('passw');
+
+ function validateForm(){
+  document.getElementById('userError').innerHTML=""; 
+  document.getElementById('userError').innerHTML="";
+  
+  let username = document.getElementById('username');
+  let password = document.getElementById('password');
  
- function formvalidate(){
    
-      if(fname.value == ""){
-        document.getElementById('namepass').innerHTML ='user name is empty';
+      if(username.value == ""){
+        document.getElementById('userError').innerHTML ='user name is empty';
+        return false;
       }  
-      else if(fname.value.length < 4){
-        document.getElementById('namepass').innerHTML='you must 4 character';
+      // else if(username.value.length < 4){
+      //   document.getElementById('userError').innerHTML='you must 4 character';
+      //   return false;
+      // }
+
+      if(password.value == ""){
+        document.getElementById('passError').innerHTML ='password name is empty';
+        return false;
       }
 
-      
-      if (passw.value == ""){
-        document.getElementById('password').innerHTML ='password name is empty';
-      }
-
-    return false;
+    return true;
  }
