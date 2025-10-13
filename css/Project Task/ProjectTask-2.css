@@ -679,3 +679,85 @@ margin-top: 70px;
 .footer-3>a{
     color: white;
 }
+
+.pricing-section{
+    padding:40px 20px;
+}
+
+.pricing-section h1{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.pricing-section p{
+    color: #777;
+    margin-bottom: 40px;
+    margin-right: 280px;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 280px;
+    padding: 20px;
+}
+
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card .icon{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card h2{
+    font-size: 24px;
+    margin:10px 0px ;
+    margin-left: 100px;
+
+}
+
+.card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    margin-right: 40px;
+}
+
+.card ul{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.card ul li{
+    margin: 8px 0;
+    color: green;
+}
+
+.card button{
+    background-color: #7a33ff;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: #5f28c7;
+}
