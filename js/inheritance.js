@@ -31,16 +31,52 @@
 // console.log(c1);
 
 
-class Car2{
-    #owner;
-    constructor(x,y,z){
-        this.name=x;
-        this.barnd=y;
-        this.#owner=z;
+// class Car2{
+//     #owner;
+//     constructor(x,y,z){
+//         this.name=x;
+//         this.barnd=y;
+//         this.#owner=z;
+//     }
+//     showPrivateVariable(){
+//         return `this is private variable ${this.#owner}`
+//     }
+// }
+// let c2= new Car2("defender","landrover","abhishek")
+// console.log(c2.showPrivateVariable());
+
+
+class bike{
+    constructor(l,p){
+      this.look= l;
+      this.price=p;
     }
-    showPrivateVariable(){
-        return `this is private variable ${this.#owner}`
+    showtable(){
+    console.log(`${this.look} ${this.price}`)
+    return `${this.look} ${this.price} ${this.customer}`
+}
+    
+    
+}
+
+class suv extends bike{
+    #customer
+    constructor(x,y,z){
+        super(x,y)
+        this.#customer= z;
+
+    }
+
+}
+class minisuv extends suv{
+    constructor(x,y,z,a){
+        super(x,y,z)
+        this.structure =a
+
     }
 }
-let c2= new Car2("defender","landrover","abhishek")
-console.log(c2.showPrivateVariable());
+let r =new minisuv('super',40000,'abhishek','awsome')
+console.log(r);
+
+
+ 

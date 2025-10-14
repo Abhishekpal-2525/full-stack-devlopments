@@ -514,3 +514,15 @@ try {
   console.log("Something went wrong:", error.message);
 }
 ```
+The constructor method
+The
+Constructor  method is called automatically by
+new,
+so We can initalise the object there
+
+
+Class Inheritance
+Class inheriance is a way another
+for one class to extend
+class. This is done by using the extends
+keyword
