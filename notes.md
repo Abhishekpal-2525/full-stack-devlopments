@@ -269,7 +269,7 @@ console. log (x+y) ;
  
 1. The while loop repeatedly executes a block of code as long as a specified condition is true.
 ```js
-while (conditidn) {
+while (condition) {
       // body of loop
       x++;
 }
