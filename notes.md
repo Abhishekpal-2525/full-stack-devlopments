@@ -526,3 +526,112 @@ Class inheriance is a way another
 for one class to extend
 class. This is done by using the extends
 keyword
+
+# Validation Form
+`Define`:- Form Validation in JavaScript means checking if the user has filled out a form correctly before it is submitted.
+
+```
+html code
+ <form action="#" onsubmit="return validateForm()">
+ ```
+ ```js
+ function validateForm(){
+  document.getElementById('userError').innerHTML=""; 
+  document.getElementById('userError').innerHTML="";
+  
+  let username = document.getElementById('username');
+  let password = document.getElementById('Password');
+ 
+   
+      if(username.value == ""){
+        document.getElementById('userError').innerHTML ='user name is empty';
+        return false;
+      }  
+      else if(username.value.length < 4){
+        document.getElementById('userError').innerHTML='you must 4 character';
+        return false;
+      }
+
+      if(!gender){
+        document.getElementById('emailError').innerHTML='please select the gender'
+        return false;
+      }
+
+       if{skills.length==0}{
+        //
+       }
+
+       if(city=""){
+        //
+       }
+
+      if(password.value == ""){
+        document.getElementById('passError').innerHTML ='password name is empty';
+        return false;
+      }
+
+    return true;
+ }
+ ```
+ # Constructor 
+ `Define`:-A constructor in JavaScript is a special function used to create and initialize objects. It sets the initial properties of the object when it's created using the new keyword. Constructors can be defined using a function or inside a class.
+
+ ```js
+ class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+let person1 = new Person("Alice", 25);
+let person2 = new Person("Bob", 30);
+
+console.log(person1.name); // Alice
+console.log(person2.age);  // 30
+```
+# Inheritance
+Inheritance in JavaScript means one class can use the features (like properties and methods) of another class. It helps you avoid repeating code by reusing what already exists. This is done using the `extends
+`keyword in classes.
+```js
+class Animal {
+  speak() {
+    console.log("Animal speaks");
+  }
+}
+
+class Dog extends Animal {
+  bark() {
+    console.log("Dog barks");
+  }
+}
+
+const d = new Dog();
+d.speak(); // Inherited from Animal
+d.bark();  // Dog's own method
+```
+# Encapsulation
+Encapsulation in JavaScript means hiding the internal details of an object and only exposing what is necessary.
+
+```js
+class Person {
+  #age; // private property
+
+  constructor(name, age) {
+    this.name = name;
+    this.#age = age;
+  }
+
+  getAge() {
+    return this.#age;
+  }
+}
+
+const p = new Person("Alice", 25);
+console.log(p.name);     // Alice (public)
+console.log(p.getAge()); // 25 (accessed via method)
+console.log(p.#age);     // ❌ Error: Private field
+```
+
+
+
