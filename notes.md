@@ -486,9 +486,10 @@ document, body.appendChild(div)
 # Local Storage
 Local Store is a urb storge object which are not not sent to server with each request.
 This data server a full page refresh and even a full browers restart.
-
 These are the methods provided by local Storage
-1. Set Item (Rey, value) → Store Rey /value pair
+
+Local Storage in JavaScript is a way to store small amounts of data directly in the user's browser.
+1. Set Item (key, value) → Store Rey /value pair
 2. get Item (key) → get the value by key
 3. remove Item (key) → remove the Rey with its value
 4. Clear () → delete everything
@@ -498,7 +499,55 @@ These are the methods provided by local Storage
 # prototype in js
 `Define`:-In JavaScript, a prototype is a built-in object that allows other objects to inherit properties and methods from it.
 Every JavaScript object has a hidden link to another object called its prototype.
+# promise
+A Promise in JavaScript is an object that represents the result of an asynchronous operation — it can be in one of three states:
+1. Pending: the operation is still running
+1. Fulfilled: the operation completed successfully
+1. Rejected: the operation failed
 
+```jslet promise = new Promise((resolve, reject) => {
+  let dataFetched = true;
+
+  if (dataFetched) {
+    resolve("Data fetched successfully!");
+  } else {
+    reject("Failed to fetch data.");
+  }
+});
+
+promise
+  .then((message) => console.log(message))   // runs when resolved
+  .catch((error) => console.log(error));     // runs when rejected
+```
+# Async Await
+async and await in JavaScript are used to make asynchronous code (like fetching data) easier to read and write.
+1. async makes a function return a Promise.
+1. await pauses the function until the Promise is done.
+```js
+// Function using async and await
+async function getData() {
+  let promise = new Promise((resolve) => {
+    setTimeout(() => resolve("Data received ✅"), 2000);
+  });
+
+  let result = await promise; // waits until the promise resolves
+  console.log(result);
+}
+
+getData();
+```
+ # Fetch
+ The fetch() function in JavaScript is used to get data from a server or API.
+It returns a Promise, which lets you handle the response using `.then() or async/await.`
+```js
+fetch("https://api.example.com/data")
+  .then(response => response.json())
+  .then(data => console.log(data));2
+```
+# Import And Export
+import and export in JavaScript are used to share code between files.
+1. export sends (shares) a function, variable, or class from one file.
+1. import brings that shared code into another file.
 # try and catch
 `Define`:-In JavaScript, try...catch is used to handle errors so your program doesn't crash.
 Simple Explanation:
@@ -633,5 +682,5 @@ console.log(p.getAge()); // 25 (accessed via method)
 console.log(p.#age);     // ❌ Error: Private field
 ```
 
-
+ 
 
