@@ -684,6 +684,8 @@ console.log(p.#age);     // ❌ Error: Private field
  
  # react 
 
+# react template
+ 1. RAFCE
 
  # hooks in react 
 
@@ -730,5 +732,4 @@ function App() {
 }
 
 export default App
-
 ```
