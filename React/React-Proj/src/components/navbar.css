@@ -1,0 +1,17 @@
+.nav{
+    margin-bottom: 750px;
+    background-color: antiquewhite;
+    height: 50px;
+    width: 1800px;
+    overflow: hidden;
+}
+
+.nav ul{
+    display: flex;
+    gap: 70px;
+    background-color: antiquewhite;
+}
+
+li{
+}
+

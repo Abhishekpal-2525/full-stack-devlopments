@@ -733,3 +733,17 @@ function App() {
 
 export default App
 ```
+
+# Conditional Rendering
+```js
+function App(){
+const [showbtn, setShowbtn] = useState(false)
+  return(
+    <>
+     {showbt? <button>showbtn is true‹/button>:
+          <button>showbtn is false‹/button>}
+     {/* {showbtn && ‹button›showbtn is true‹/button>} */}  
+     <button onClick={()=>setShowbtn(!showbtn)}>
+               </button>
+  )
+}
