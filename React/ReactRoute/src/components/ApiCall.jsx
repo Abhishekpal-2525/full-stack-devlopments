@@ -11,7 +11,7 @@ const fetchData = (url) => {
     .catch((err)=>{
          return [null, err];
     })
-};
+}; 
 
 export const ApiCall = ()=> {
      const {data, setData} = usecontext(contextCreated);
