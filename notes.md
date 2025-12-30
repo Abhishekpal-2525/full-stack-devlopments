@@ -747,3 +747,83 @@ const [showbtn, setShowbtn] = useState(false)
                </button>
   )
 }
+```
+# useState
+```
+1️⃣ useState
+Definition:
+
+useState is used to store and manage data (state) in a functional component.
+When the state changes, the component re-renders.
+Example use: counters, form input values, toggle buttons.
+
+1️⃣ useState
+परिभाषा:
+useState का उपयोग किसी component के अंदर data (state) को store और manage करने के लिए किया जाता है।
+जब state बदलती है, तो component दोबारा render होता है।
+
+उदाहरण:
+Counter की value, form का input, button ON/OFF करना।
+```
+# useEffect
+```
+2️⃣ useEffect
+Definition:
+
+useEffect is used to perform side effects in a component, like:
+fetching data
+updating the DOM
+timers
+subscriptions
+It runs after the component renders.
+
+2️⃣ useEffect
+परिभाषा:
+useEffect का उपयोग side effects के लिए किया जाता है, जैसे:
+
+API से data लाना
+
+DOM को update करना
+
+Timer या interval लगाना
+
+यह component render होने के बाद चलता है।
+```
+# useContext
+```
+3️⃣ useContext
+Definition:
+
+useContext is used to share data between components without passing props manually at every level (avoids prop drilling).
+Example use: theme, user authentication data, language settings.
+
+3️⃣ useContext
+परिभाषा:
+useContext का उपयोग data को एक component से दूसरे component तक पहुँचाने के लिए किया जाता है, बिना बार-बार props भेजे।
+
+इससे prop drilling की समस्या खत्म होती है।
+
+उदाहरण:
+User login data, theme (dark/light), language।
+```
+# useRef
+```
+4️⃣ useRef
+Definition:
+
+useRef is used to store a mutable value that does not cause re-render when changed.
+
+It is commonly used to access DOM elements directly.
+
+Example use: focusing an input field, storing previous values.
+
+4️⃣ useRef
+परिभाषा:
+
+useRef का उपयोग ऐसा data रखने के लिए किया जाता है जो बदलने पर component को re-render न करे।
+
+यह सीधे DOM elements को access करने के लिए भी इस्तेमाल होता है।
+
+उदाहरण:
+Input box पर focus करना, previous value को store करना।
+```
