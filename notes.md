@@ -682,7 +682,7 @@ console.log(p.#age);     // ❌ Error: Private field
 ```
 
  
- # react 
+ # React 
 
 # react template
  1. RAFCE
