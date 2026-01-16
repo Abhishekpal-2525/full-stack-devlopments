@@ -827,3 +827,243 @@ useRef का उपयोग ऐसा data रखने के लिए क�
 उदाहरण:
 Input box पर focus करना, previous value को store करना।
 ```
+
+
+
+
+# HTML (UI-Focused Questions)
+
+What is HTML and why is it important in UI design?
+
+Difference between div and span?
+
+What are semantic HTML tags?
+
+Why should we use semantic tags?
+
+What is the difference between id and class?
+
+What are block-level and inline elements?
+
+What is the alt attribute and why is it important?
+
+How do you improve accessibility using HTML?
+
+What is meta viewport?
+
+Difference between HTML4 and HTML5?
+
+What is doctype?
+
+What are forms and form elements?
+
+Difference between button and input type="submit"?
+
+What is placeholder vs label?
+
+How do you structure a basic web page?
+
+What is iframe and when would you use it?
+
+What are data attributes (data-*)?
+
+How do you embed audio/video?
+
+What is the use of figure and figcaption?
+
+How do you make a page SEO-friendly using HTML?
+
+# CSS (VERY IMPORTANT FOR UI/UX)
+Basics
+
+What is CSS?
+
+Difference between class and id selectors?
+
+What is the CSS box model?
+
+Difference between margin and padding?
+
+What is display property?
+
+Difference between display: none and visibility: hidden?
+
+What is position property?
+
+Difference between relative, absolute, fixed, sticky?
+
+What is z-index?
+
+What is overflow?
+
+Layout & Responsiveness
+
+Difference between Flexbox and Grid?
+
+What is Flexbox used for?
+
+What is CSS Grid used for?
+
+What is responsive design?
+
+What are media queries?
+
+Mobile-first vs desktop-first?
+
+What is viewport?
+
+What is rem vs em vs px?
+
+What is vh and vw?
+
+How do you center a div?
+
+UI / UX Focus
+
+What is visual hierarchy?
+
+What is white space?
+
+Why is contrast important?
+
+What is hover state?
+
+What are pseudo-classes?
+
+What is :focus and why is it important?
+
+What is transition?
+
+Difference between transition and animation?
+
+What is keyframes?
+
+How do you improve UI performance using CSS?
+
+# JavaScript (UI Interaction Focus)
+
+What is JavaScript?
+
+Difference between var, let, and const?
+
+What is DOM?
+
+How do you select elements in JS?
+
+Difference between getElementById and querySelector?
+
+What is an event?
+
+What is event listener?
+
+What is event bubbling?
+
+How do you prevent default behavior?
+
+How do you show/hide elements using JS?
+
+How do you add/remove class in JS?
+
+What is form validation?
+
+What is setTimeout and setInterval?
+
+What is callback?
+
+Difference between synchronous and asynchronous JS?
+
+What is JSON?
+
+How do you handle user input?
+
+What is debounce?
+
+What is throttle?
+
+What is localStorage and where is it used?
+
+# jQuery (Still Asked in Many Companies)
+
+What is jQuery?
+
+Difference between JavaScript and jQuery?
+
+How do you select elements in jQuery?
+
+What is $(document).ready()?
+
+Difference between .click() and .on()?
+
+How do you show/hide elements in jQuery?
+
+What is chaining in jQuery?
+
+What is AJAX?
+
+Difference between hide() and fadeOut()?
+
+How do you add/remove class using jQuery?
+
+What is .toggle()?
+
+What is event delegation?
+
+How do you get/set values in jQuery?
+
+What is .each()?
+
+How do you validate a form using jQuery?
+
+# Bootstrap (UI Designer Favorite)
+
+What is Bootstrap?
+
+Why is Bootstrap used?
+
+What is the Bootstrap grid system?
+
+How many columns are there in Bootstrap?
+
+What are breakpoints in Bootstrap?
+
+Difference between container and container-fluid?
+
+What is a row?
+
+What are utility classes?
+
+What is responsive image class?
+
+What is navbar in Bootstrap?
+
+How do you create a modal in Bootstrap?
+
+What is a card?
+
+Difference between Bootstrap 4 and 5?
+
+What is d-flex?
+
+How do you customize Bootstrap styles?
+
+# Practical Coding Questions (MOST IMPORTANT)
+
+## Create a responsive navbar.
+
+## Create a modal popup.
+
+## Create a form with validation.
+
+## Create a card layout using Flexbox.
+
+## Create a hover effect for button.
+
+## Implement dark mode.
+
+## Create an image slider.
+
+## Create accordion / FAQ section.
+
+## Highlight active menu.
+
+## Improve given UI layout.
