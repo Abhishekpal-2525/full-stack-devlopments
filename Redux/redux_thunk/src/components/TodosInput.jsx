@@ -11,7 +11,7 @@ export const TodosInput = () => {
         axios
         .get('http://localhost:8080/todo')
         .then((res)=> dispatch(actFunc.getTodosSuccess(res)))
-        .catch((res)=> console.log(err));
+        .catch((err)=> console.log(err));
     };
     React.useEffect(()=>{
         getApi();
@@ -20,3 +20,5 @@ export const TodosInput = () => {
     <div>TodosInput</div>
   )
 }
+
+
