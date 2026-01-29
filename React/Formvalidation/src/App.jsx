@@ -7,7 +7,7 @@ function App() {
     label:'user name',
     type:'text',
     isRequire:'true',
-    placeholder:'enter your '
+    placeholder:'enter name'
   }
 ]; 
   return (
