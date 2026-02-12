@@ -36,5 +36,4 @@ const Reducer = (oldState = initialValue, { type, payload }) => {
       return oldState;
   }
 };
-
 export default Reducer;
