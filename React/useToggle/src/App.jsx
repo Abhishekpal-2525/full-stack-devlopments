@@ -25,7 +25,7 @@ function App(){
     type={showpassword?"text":"password"}
     placeholder='enterpass'/>
 
-    <button onClick={Togglepassword}>
+<button onClick={Togglepassword}>
       {showpassword ? "hide":"show"}
     </button>
     </div>
