@@ -1,19 +1,8 @@
-import './App.css'
+import React from 'react'
 
-function App() {
-  const field =[
-    {
-    name: 'userName',
-    label:'user name',
-    type:'text',
-    isRequire:'true',
-    placeholder:'enter name'
-  }
-]; 
+const App = () => {
   return (
-    <>
-      
-    </>
+    <div>App</div>
   )
 }
 
