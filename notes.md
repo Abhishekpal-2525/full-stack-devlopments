@@ -1067,3 +1067,17 @@ How do you customize Bootstrap styles?
 ## Highlight active menu.
 
 ## Improve given UI layout.
+
+
+
+Practical Coding Questions (MOST IMPORTANT)
+Create a responsive navbar.
+Create a modal popup.
+Create a form with validation.
+Create a card layout using Flexbox.
+Create a hover effect for button.
+Implement dark mode.
+Create an image slider.
+Create accordion / FAQ section.
+Highlight active menu.
+Improve given UI layout.
