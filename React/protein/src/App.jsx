@@ -1,35 +1,47 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { useState,useEffect} from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+// function App() {
+//   const [count, setCount] = useState([])
+    
+//   useEffect(()=>{
+//     fetch('https://fakestoreapi.com/products')
+//     .then(res=>res.json())
+//     .then(data=>setCount(data));
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+//   },[])
+
+//   return (
+//     <>
+//        {users.map(user=>(
+//      <h3>key={user.id} {user.name} </h3>
+//         ))}
+      
+//     </>
+//   )
+// }
+
+// export default App;
+import React, { useEffect, useState } from "react";
+
+function App(){
+
+  const [users,setUsers] = useState([]);
+
+  useEffect(()=>{
+
+    fetch("https://jsonplaceholder.typicode.com/users")
+    .then(res => res.json())
+    .then(data => setUsers(data));
+
+  },[]);
+
+  return(
+    <div>
+      {users.map(user => (
+        <h3 key={user.id}>{user.name}</h3>
+      ))}
+    </div>
+  );
 }
 
-export default App
+export default App;
