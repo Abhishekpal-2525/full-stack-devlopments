@@ -4,7 +4,7 @@
 // const initialState = {
 //   items: []
 // };
-
+  
 // function reducer(state = initialState, action) {
 //   switch (action.type) {
 //     case "ADD_ITEM":
@@ -29,3 +29,11 @@
 //   const store = createStore(reducer);
   
 //   export default store;
+
+
+
+
+
+
+
+// the formation of function and fundamental  
