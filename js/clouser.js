@@ -6,3 +6,5 @@ const justfunction = ()=>{
 };
 
 console.log(justfunction()());
+
+//clouser the function in this code.
