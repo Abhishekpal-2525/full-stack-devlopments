@@ -4,11 +4,11 @@ const Header = () => {
       <>
       <h2>Contact Managerk</h2>
       </>  
-    //   <div className="ui fixed menu">
-    //   <div className="ui container center">
+      // <div className="ui fixed menu">
+      // <div className="ui container center">
     
-    //   </div>
-    //   </div>
+      // </div>
+      // </div>
   )
 }
 
