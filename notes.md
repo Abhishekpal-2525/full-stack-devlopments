@@ -391,6 +391,8 @@ object.freeze(Usermy)
 console.log(Usermy)
 ```
 # return function , arrow function (=>)
+`Define function`:-A function is a block of code that performs a specific task. It can be reused and called whenever needed. It can take inputs (parameters) and return an output.
+
 `Define`:-In JavaScript, the return statement is used inside a function to send a value back to where the function was called. It ends the function and gives back a result.
 
 `Define`:- it is shorter way to function define.
@@ -483,7 +485,10 @@ div.appendChild (addText)
 document, body.appendChild(div)
 ```
 # Local Storage
-Local Store is a urb storge object which are not not sent to server with each request.
+LocalStorage is a way to save data in the browser.
+The saved data stays there even after you refresh or close the page.
+You can store and get data anytime using JavaScript.
+It is useful for saving things like user settings or small data.
 This data server a full page refresh and even a full browers restart.
 These are the methods provided by local Storage
 
